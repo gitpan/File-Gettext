@@ -1,0 +1,60 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 d42951d9c94398ac8f820ae4c8b71ef16cd84380 Build.PL
+SHA1 980094c018b42880a8ef398dc2573afa5981e380 Changes
+SHA1 2b3ccb88f716f614f8af721a1c69dba0bcdbbb32 LICENSE
+SHA1 ab2cfe0f44efbaa44e84f9d8eaa04d2c2da8099e MANIFEST
+SHA1 d57a45b36659044252e20760b6481b23ea8725dd META.json
+SHA1 9b9ba2237cdbd51f009fca52a1b325aefeca5a10 META.yml
+SHA1 f7daae5313fe666e6981fb7a4e50dddfb8b5409d README
+SHA1 4efd622830066cf222e8f2542024a7fed26666a2 inc/Bob.pm
+SHA1 b2daf2d6d3f2158b33d84a79ea725c922f508718 inc/CPANTesting.pm
+SHA1 32d0d60cba78d86b9c2cc6ce3b511c0fbe6e0b91 inc/SubClass.pm
+SHA1 5854d5706ed771c10bb0515e2a835d209caca18b lib/File/Gettext.pm
+SHA1 62c8a3a74feb45a489cf5be3e84927e2319a019c lib/File/Gettext/Constants.pm
+SHA1 d98a6376dae366e1c24f13ac594354018a729bb2 lib/File/Gettext/ResultSource.pm
+SHA1 f55765febdcd1e6ca3adfba2d9c1051ae8af95eb lib/File/Gettext/Schema.pm
+SHA1 6fb7a1a59cbd01e7733625cedc84b376c6aa065d lib/File/Gettext/Storage.pm
+SHA1 90ca7a149ed0ab0b730e91eda0413354219044c4 lib/File/Gettext/Storage/MO.pm
+SHA1 da4817da981f42b12c3a017886c96286d7b03d46 lib/File/Gettext/Storage/PO.pm
+SHA1 5b418179c13d5f6c7995c9021ec067a20cab70dc t/01always_pass.t
+SHA1 ab438fffc7e0f9ce89ec3bfd17bebd8cf601ac3b t/02pod.t
+SHA1 93a1aa151a93d94d1d10bd3d17e3a14aca9b0113 t/03podcoverage.t
+SHA1 7c372b3a44898768cc92e7a118e1910f473faf8e t/04critic.t
+SHA1 affff21e6ce8e1e3284eaaa0db3609c634b17601 t/05kwalitee.t
+SHA1 648596e6be19e523fe182bdf57005a9b19fc349b t/06yaml.t
+SHA1 cdcbe9c8406da9cbc3ab65c530650807d05bef7e t/07podspelling.t
+SHA1 7882367e42945b70ae9550912d44d05550222efe t/10test_script.t
+SHA1 03caab364d24c48da34fa7a7a3a36325cecc75b4 t/20with-language.t
+SHA1 00aa2e48a788f7ec7de8365693f0ba278f86c98c t/critic.rc
+SHA1 8c6e6a9ec7dabf064371ec0e2d0391b051000938 t/default.xml
+SHA1 ea337409fe2dbceb2eec10bd3d279a9222ad45d8 t/existing.mo
+SHA1 e0b4528eb08ddca6f68d39495eabb3818d314d0c t/existing.po
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/locale/de/LC_MESSAGES/file1
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/locale/en/LC_MESSAGES/file1
+SHA1 9c79fb75758cb3f7df027b4863ae821575efa32c t/messages.po
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJRas2JAAoJEK492j4Im1Bp940H/1NNu4awAKDQAcfjHgBF/xcA
+eexolW/g414MrJQ1QoEruc/fYm/ipmwFSv6yqMM/DeE7BtRYaD+/9U6jWaXEiUuy
+sVdNlc82MnnF7fK3xcsv8ZoIwfMC/Bp3Y3oKW63lmADSQONhnvGQzyRD3c+UK9ux
+gzOYeNQrCl7Pa1NqF410Bxja7sc2ms9OpyspqEZbXg6vXRRYIzGc2Nno8nUzZH8j
+kAaEwgy+xQEOw213cK3CFC9MCy5t4Iy5qOnyXk6BVnJMzf2oKFuNiQASfyLpMXo7
+8rafLFlLIfOTa3xcldkv9Ahv8NyBljAEPi/LBM9LNstH3zXI4A+L4yX3Gh2rIj4=
+=tEhB
+-----END PGP SIGNATURE-----

@@ -1,0 +1,61 @@
+Name
+    File::Gettext - Read and write GNU gettext po/mo files
+
+Version
+    This documents version v0.16.$Rev: 5 $ of File::Gettext
+
+Synopsis
+       use File::Gettext;
+
+       my $domain = File::Gettext->new( $attrs )->load( $lang, @names );
+
+Description
+    Extends File::DataClass::Schema. Provides for the reading and writing of
+    GNU Gettext PO files and the reading of MO files. Used by
+    Class::Usul::L10N to translate application message strings into
+    different languages
+
+Subroutines/Methods
+  get_path
+       $gettext->get_path( $lang, $file );
+
+    Returns the path to the po/mo file for the specified language
+
+  set_path
+       $gettext->set_path( $lang, $file );
+
+    Sets the *path* attribute on the parent class from $lang and $file
+
+Configuration and Environment
+    None
+
+Diagnostics
+    None
+
+Dependencies
+    File::DataClass
+    Moose
+
+Incompatibilities
+    There are no known incompatibilities in this module
+
+Bugs and Limitations
+    There are no known bugs in this module. Please report problems to the
+    address below. Patches are welcome
+
+Acknowledgements
+    Larry Wall - For the Perl programming language
+
+Author
+    Peter Flanigan, "<pjfl@cpan.org>"
+
+License and Copyright
+    Copyright (c) 2013 Peter Flanigan. All rights reserved
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself. See perlartistic
+
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT WARRANTY; without even the implied warranty of MERCHANTABILITY
+    or FITNESS FOR A PARTICULAR PURPOSE
+

@@ -14,32 +14,32 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7407f361e1d7fe4c714c2edb0f0eed867860019b Build.PL
-SHA1 6efd77844553660c78517aa1b43a4cd09e452113 Changes
+SHA1 568078df07187e49cbd167256a1451f6a5dc9695 Build.PL
+SHA1 da1c9ec060d13bbdf23077c5d8fd15fa19ec72cb Changes
 SHA1 2b3ccb88f716f614f8af721a1c69dba0bcdbbb32 LICENSE
 SHA1 ab2cfe0f44efbaa44e84f9d8eaa04d2c2da8099e MANIFEST
-SHA1 82af6ef9564ff8c0501f9ce231d3bf3508b6d761 META.json
-SHA1 8e57f7c6e68fc35b2708b9b18fd7cecb653aaa98 META.yml
-SHA1 385cf93ec6a1843c66164e128e2ecb8e79529f43 README
+SHA1 c7494f099fe5f879a3690a232104b0d92fc0575d META.json
+SHA1 54c80542616ee4cf0ec1385d3df02ec114ed05c2 META.yml
+SHA1 f143aeda6b36a6cb58dc7f3e275f952991afc5af README
 SHA1 2dad6b015a19acb067ac9b3d677292796ecdb1c9 inc/Bob.pm
 SHA1 5eac6562b1e0df5be69e78e30a22b3c014707cc9 inc/CPANTesting.pm
 SHA1 5e116d3362f35c74c500720901edbe8d3a8ab89b inc/SubClass.pm
-SHA1 49610fbd51389b79eb1aa3be8f66ba9f19e932a8 lib/File/Gettext.pm
-SHA1 4029738dfe6bb1ab923d1f3578dd5c2d52bc6c4a lib/File/Gettext/Constants.pm
-SHA1 341da08646e1caf5097a5b1690fdcadd3f9d058e lib/File/Gettext/ResultSource.pm
-SHA1 91fce13fbb5fb7608eab8c606f895d0524833366 lib/File/Gettext/Schema.pm
-SHA1 7d7a0ff13b62f9768c13f017f4a3c885ce35b8ff lib/File/Gettext/Storage.pm
-SHA1 4f0e125344a416f86b6909e1575c7723b7c9ac77 lib/File/Gettext/Storage/MO.pm
-SHA1 375c63cc6f07826135f6620da7bd44c96666ff3a lib/File/Gettext/Storage/PO.pm
+SHA1 a1454df30fda0144b42f440fe5265ac3ef2dc9ca lib/File/Gettext.pm
+SHA1 492f9e8cf74fcd3cb8baa245a483383e61b4c45f lib/File/Gettext/Constants.pm
+SHA1 fd8037a99ebda3f7305d16c6a5c9224f8fdd18d4 lib/File/Gettext/ResultSource.pm
+SHA1 734ec198bd80cac404e41f0b23eabf8769e6b2d5 lib/File/Gettext/Schema.pm
+SHA1 af92989f094cac0c6fb8588e472461f2bae5255a lib/File/Gettext/Storage.pm
+SHA1 d42e595d88f1852a2a5456a953b571d7bd41c029 lib/File/Gettext/Storage/MO.pm
+SHA1 e608b9b9538f37b1b0cde5ab1db953ff15824b8d lib/File/Gettext/Storage/PO.pm
 SHA1 da341a044ddf578c782eadc66a906d6f331ab48c t/01always_pass.t
-SHA1 5deecead0cf577a266cd0d467aaa7a16596519cf t/02pod.t
-SHA1 b1f4a0305bb661a69994afbf13bc2690ae3444af t/03podcoverage.t
-SHA1 73af6fd4c0721a0db870b4ef0267c71022b5c9ab t/04critic.t
-SHA1 0193115243760707da038d96bb8f72b9ae1e37ba t/05kwalitee.t
-SHA1 80f48536556b9a4b7b35616f8890e2b667b744f7 t/06yaml.t
-SHA1 63db6862e5f04cb49bd631e60c64445de07c7a3a t/07podspelling.t
-SHA1 e677b1ff61893c25e9cbe556367d10edeefb4369 t/10test_script.t
-SHA1 6ff6d23d79289a8607d67099331cf791c450b0f3 t/20with-language.t
+SHA1 762c2268217a74345f9df413421526f5486b8b3c t/02pod.t
+SHA1 8afa92b4939932e9930e792dba9fd38f55106336 t/03podcoverage.t
+SHA1 f1c4c356ae57a568cf6c923c5e4c2603c2f0bfa4 t/04critic.t
+SHA1 dbd2add8189de35935c63b07d094f13bbf23abfd t/05kwalitee.t
+SHA1 02566b195c7c8f70e28f36cddb773209cc6bacd0 t/06yaml.t
+SHA1 95f0a947974b573965107fcb95fb4ec3ce4adab3 t/07podspelling.t
+SHA1 22f00a9c3493f3ffa5e26271a532e8084eda9b72 t/10test_script.t
+SHA1 1f06de84110332fb566746dcc1f11df205772214 t/20with-language.t
 SHA1 00aa2e48a788f7ec7de8365693f0ba278f86c98c t/critic.rc
 SHA1 8c6e6a9ec7dabf064371ec0e2d0391b051000938 t/default.xml
 SHA1 ea337409fe2dbceb2eec10bd3d279a9222ad45d8 t/existing.mo
@@ -50,11 +50,11 @@ SHA1 9c79fb75758cb3f7df027b4863ae821575efa32c t/messages.po
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQEcBAEBAgAGBQJRtI2KAAoJEK492j4Im1BpSRcH/1DtcdwRkUipSBghUlFA7s/J
-yWMWsBgKAIgC9c4TMwgi0LEhPoCIFzCgu3qEUBkVTGizToSEAOkXsT/Y/zp+TvVq
-nTAOtW9jtzFfjYc7eU31unYxEyN1Of1wtNY9eW9YWLj9PnGIPyf5KrlwhRvBZMUa
-1kpq2eJKSIiX/e/8yS/1v2Hf8TGiDaaHBcLh1VwGJGZLqZy2Pr+p+1+/zAGH9iDp
-7El8t5W5gojdl2vIQdPZJGOdXN7NmRYzJfieDyRfD65kVGS8y5SmrN4rM8AdwygR
-lt3POjjS+k2TRizs6qIK5sT++KpyQwK5C59dppMqvjNLpTr1XAYfSku0G6f/s4c=
-=Kpff
+iQEcBAEBAgAGBQJR9VwiAAoJEK492j4Im1BpqHUIALD68xWj9d6NFzJMyMYSw+9x
+6C3T93LhnttYdaaZeFeDw4PLnsgDsgXgYDcFk9Myehb5i2SNkuqoH3IT4Qc54HMO
+Ib1pnmvriT9f8tfDu6RBG4NsB69tOqRmNOlmlv5sjD/J4q8Ax3Y6Z3h2pEGhIPU7
+ZnKJqsAJv2UqIhqzq5donRPSYbnFREZeTR3ySCAMQru+33n3c+o5xPHNDhk7rIvd
+Hnf6B2Aqfx9JeRWj52pGZwkZ6l4wtncpD5q5n1Lt4rbRo0u0PY/rVRTyW9Cf2yA3
+id+xXs41bbmbIZsab3BJHVNSElKNJ/9pLSkwSPoNQ8eDPsSiccJk7ylXfzJZXnY=
+=4xQ7
 -----END PGP SIGNATURE-----

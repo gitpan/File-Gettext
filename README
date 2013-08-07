@@ -2,7 +2,7 @@ Name
     File::Gettext - Read and write GNU gettext po/mo files
 
 Version
-    This documents version v0.19.$Rev: 2 $ of File::Gettext
+    This documents version v0.19.$Rev: 3 $ of File::Gettext
 
 Synopsis
        use File::Gettext;

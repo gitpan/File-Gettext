@@ -49,14 +49,14 @@
             "Try::Tiny" : "0.09",
             "Type::Tiny" : "0.008",
             "namespace::sweep" : "0.006",
-            "perl" : "5.01"
+            "perl" : "5.010001"
          }
       }
    },
    "provides" : {
       "File::Gettext" : {
          "file" : "lib/File/Gettext.pm",
-         "version" : "v0.19.1"
+         "version" : "v0.19.2"
       },
       "File::Gettext::Constants" : {
          "file" : "lib/File/Gettext/Constants.pm",
@@ -93,5 +93,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v0.19.1"
+   "version" : "v0.19.2"
 }

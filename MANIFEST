@@ -1,8 +1,11 @@
 Build.PL
 Changes
-inc/Bob.pm
-inc/CPANTesting.pm
-inc/SubClass.pm
+LICENSE
+MANIFEST
+META.json
+META.yml
+README
+SIGNATURE
 lib/File/Gettext.pm
 lib/File/Gettext/Constants.pm
 lib/File/Gettext/ResultSource.pm
@@ -10,11 +13,6 @@ lib/File/Gettext/Schema.pm
 lib/File/Gettext/Storage.pm
 lib/File/Gettext/Storage/MO.pm
 lib/File/Gettext/Storage/PO.pm
-LICENSE
-MANIFEST			This list of files
-META.json
-META.yml
-README
 t/01always_pass.t
 t/02pod.t
 t/03podcoverage.t
@@ -31,4 +29,3 @@ t/existing.po
 t/locale/de/LC_MESSAGES/file1
 t/locale/en/LC_MESSAGES/file1
 t/messages.po
-SIGNATURE    Added here by Module::Build

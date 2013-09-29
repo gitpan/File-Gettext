@@ -1,9 +1,9 @@
-# @(#)$Ident: DZ_Build.PL 2013-08-15 13:04 pjf ;
+# @(#)$Ident: DZ_Build.PL 2013-09-03 12:35 pjf ;
 
 use strict;
 use warnings;
 
-use Module::Build;
+use Module::Build 0.4004;
 
 sub whimper { print {*STDOUT} $_[ 0 ]."\n"; exit 0 }
 
@@ -17,7 +17,7 @@ Module::Build->subclass( code => do { local $/; <DATA> } )->new(
   'module_name' => $name,
   'notes'       => { min_perl_version => $perl_ver },
   'build_requires' => {
-    'File::DataClass' => 'v0.22.0',
+    'File::DataClass' => 'v0.26.0',
     'Module::Build' => '0.4004',
     'Text::Diff' => '1.37',
     'version' => '0.88'
@@ -30,10 +30,10 @@ Module::Build->subclass( code => do { local $/; <DATA> } )->new(
     'Class::Method::ModifiersX::Augment' => '0.001',
     'Date::Format' => '2.22',
     'Encode' => '2.12',
-    'File::DataClass' => 'v0.22.0',
-    'Moo' => '1.002',
-    'Try::Tiny' => '0.09',
-    'Type::Tiny' => '0.008',
+    'File::DataClass' => 'v0.26.0',
+    'Moo' => '1.003001',
+    'Try::Tiny' => '0.18',
+    'Type::Tiny' => '0.012',
     'namespace::sweep' => '0.006',
     'perl' => '5.010001'
   },

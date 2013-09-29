@@ -3,7 +3,7 @@ abstract: 'Read and write GNU gettext po/mo files'
 author:
   - 'Peter Flanigan <pjfl@cpan.org>'
 build_requires:
-  File::DataClass: v0.22.0
+  File::DataClass: v0.26.0
   Module::Build: 0.4004
   Text::Diff: 1.37
   version: 0.88
@@ -26,37 +26,37 @@ no_index:
 provides:
   File::Gettext:
     file: lib/File/Gettext.pm
-    version: v0.20.0
+    version: v0.21.1
   File::Gettext::Constants:
     file: lib/File/Gettext/Constants.pm
-    version: v0.20.0
+    version: v0.21.1
   File::Gettext::ResultSource:
     file: lib/File/Gettext/ResultSource.pm
-    version: v0.20.0
+    version: v0.21.1
   File::Gettext::Schema:
     file: lib/File/Gettext/Schema.pm
-    version: v0.20.0
+    version: v0.21.1
   File::Gettext::Storage:
     file: lib/File/Gettext/Storage.pm
-    version: v0.20.0
+    version: v0.21.1
   File::Gettext::Storage::MO:
     file: lib/File/Gettext/Storage/MO.pm
-    version: v0.20.0
+    version: v0.21.1
   File::Gettext::Storage::PO:
     file: lib/File/Gettext/Storage/PO.pm
-    version: v0.20.0
+    version: v0.21.1
 requires:
   Class::Method::ModifiersX::Augment: 0.001
   Date::Format: 2.22
   Encode: 2.12
-  File::DataClass: v0.22.0
-  Moo: 1.002
-  Try::Tiny: 0.09
-  Type::Tiny: 0.008
+  File::DataClass: v0.26.0
+  Moo: 1.003001
+  Try::Tiny: 0.18
+  Type::Tiny: 0.012
   namespace::sweep: 0.006
   perl: 5.010001
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=File-Gettext
   homepage: https://metacpan.org/author/PJFL
   license: http://dev.perl.org/licenses/
-version: 0.20.0
+version: 0.21.1

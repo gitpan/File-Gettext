@@ -1,10 +1,10 @@
 {
    "abstract" : "Read and write GNU gettext po/mo files",
    "author" : [
-      "Peter Flanigan <pjfl@cpan.org>"
+      "Peter Flanigan, C<< <pjfl@cpan.org> >>"
    ],
-   "dynamic_config" : "1",
-   "generated_by" : "Dist::Zilla version 4.300033, CPAN::Meta::Converter version 2.120921",
+   "dynamic_config" : 1,
+   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -24,8 +24,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "File::DataClass" : "v0.26.0",
             "Module::Build" : "0.4004",
+            "Test::Requires" : "0.06",
             "Text::Diff" : "1.37",
             "version" : "0.88"
          }
@@ -41,10 +41,11 @@
             "Class::Method::ModifiersX::Augment" : "0.001",
             "Date::Format" : "2.22",
             "Encode" : "2.12",
-            "File::DataClass" : "v0.26.0",
+            "File::DataClass" : "v0.28.0",
             "Moo" : "1.003001",
             "Try::Tiny" : "0.18",
             "Type::Tiny" : "0.012",
+            "Unexpected" : "v0.20.0",
             "namespace::sweep" : "0.006",
             "perl" : "5.010001"
          }
@@ -53,31 +54,31 @@
    "provides" : {
       "File::Gettext" : {
          "file" : "lib/File/Gettext.pm",
-         "version" : "v0.21.1"
+         "version" : "v0.22.1"
       },
       "File::Gettext::Constants" : {
          "file" : "lib/File/Gettext/Constants.pm",
-         "version" : "v0.21.1"
+         "version" : "v0.22.1"
       },
       "File::Gettext::ResultSource" : {
          "file" : "lib/File/Gettext/ResultSource.pm",
-         "version" : "v0.21.1"
+         "version" : "v0.22.1"
       },
       "File::Gettext::Schema" : {
          "file" : "lib/File/Gettext/Schema.pm",
-         "version" : "v0.21.1"
+         "version" : "v0.22.1"
       },
       "File::Gettext::Storage" : {
          "file" : "lib/File/Gettext/Storage.pm",
-         "version" : "v0.21.1"
+         "version" : "v0.22.1"
       },
       "File::Gettext::Storage::MO" : {
          "file" : "lib/File/Gettext/Storage/MO.pm",
-         "version" : "v0.21.1"
+         "version" : "v0.22.1"
       },
       "File::Gettext::Storage::PO" : {
          "file" : "lib/File/Gettext/Storage/PO.pm",
-         "version" : "v0.21.1"
+         "version" : "v0.22.1"
       }
    },
    "release_status" : "stable",
@@ -91,6 +92,6 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.21.1"
+   "version" : "0.22.1"
 }
 

@@ -1,4 +1,4 @@
-# @(#)$Ident: DZ_Build.PL 2013-09-03 12:35 pjf ;
+# @(#)$Ident: DZ_Build.PL 2013-12-12 21:42 pjf ;
 
 use strict;
 use warnings;
@@ -9,16 +9,10 @@ sub whimper { print {*STDOUT} $_[ 0 ]."\n"; exit 0 }
 
 my $perl_ver = 5.010001;
 my $name     = 'File-Gettext'; $name =~ s{ - }{::}gmx;
-
-$] >= $perl_ver or $ENV{PERL5_CPANPLUS_IS_VERSION}
-   or whimper "Minimum required Perl version is ${perl_ver}";
-
-Module::Build->subclass( code => do { local $/; <DATA> } )->new(
-  'module_name' => $name,
-  'notes'       => { min_perl_version => $perl_ver },
+my $prereqs  = {
   'build_requires' => {
-    'File::DataClass' => 'v0.26.0',
     'Module::Build' => '0.4004',
+    'Test::Requires' => '0.06',
     'Text::Diff' => '1.37',
     'version' => '0.88'
   },
@@ -30,20 +24,31 @@ Module::Build->subclass( code => do { local $/; <DATA> } )->new(
     'Class::Method::ModifiersX::Augment' => '0.001',
     'Date::Format' => '2.22',
     'Encode' => '2.12',
-    'File::DataClass' => 'v0.26.0',
+    'File::DataClass' => 'v0.28.0',
     'Moo' => '1.003001',
     'Try::Tiny' => '0.18',
     'Type::Tiny' => '0.012',
+    'Unexpected' => 'v0.20.0',
     'namespace::sweep' => '0.006',
     'perl' => '5.010001'
   },
+};
+
+if ($] < $perl_ver) {
+   $ENV{AUTOMATED_TESTING}
+      or $ENV{PERL_CPAN_REPORTER_CONFIG}
+      or $ENV{PERL5_CPANPLUS_IS_VERSION}
+      or whimper "Minimum required Perl version is ${perl_ver}";
+   $prereqs->{build_requires} = { %{ $prereqs->{configure_requires} } };
+   $prereqs->{build_requires}->{ 'Test::Requires' } = 0.06;
+   delete $prereqs->{requires};
+}
+
+Module::Build->new(
+  'module_name' => $name,
+  'notes'       => { min_perl_version => $perl_ver },
+  %{ $prereqs },
 
 )->create_build_script;
 
 exit 0;
-
-__DATA__
-
-sub _normalize_prereqs { # Dynamic config
-   my $self = shift; my $p = $self->SUPER::_normalize_prereqs; return $p;
-}

@@ -1,14 +1,12 @@
-# @(#)$Ident: PO.pm 2013-12-31 01:44 pjf ;
-
 package File::Gettext::Storage::PO;
 
 use namespace::sweep;
-use version; our $VERSION = qv( sprintf '0.22.%d', q$Rev: 1 $ =~ /\d+/gmx );
 
 use Moo;
-use Date::Format ();
-use Encode qw( decode encode );
+use Date::Format                 ( );
+use Encode                     qw( decode encode );
 use File::DataClass::Constants;
+use File::DataClass::Functions qw( extension_map );
 use File::Gettext::Constants;
 use MooX::Augment -class;
 
@@ -28,6 +26,8 @@ augment '_write_file' => sub {
    $wtr->println( @{ $self->_write_filter( $data ) } );
    return $data;
 };
+
+extension_map '+File::Gettext::Storage::PO' => '.po';
 
 sub decompose_key {
    my ($self, $key) = @_; my $sep = CONTEXT_SEP;
@@ -171,7 +171,7 @@ sub _default_po_header {
                                            '', ),
       flags       => [ 'fuzzy', ],
       msgstr      => {
-         'project_id_version'        => "${appname} ${VERSION}",
+         'project_id_version'        => "${appname} ${File::Gettext::VERSION}",
          'po_revision_date'          => $rev_date,
          'last_translator'           => "${translator} ${email}",
          'language_team'             => "${team} ${email}",
@@ -418,10 +418,6 @@ __END__
 =head1 Name
 
 File::Gettext::Storage::PO - Storage class for GNU Gettext portable object format
-
-=head1 Version
-
-This documents version v0.22.$Rev: 1 $ of L<File::Gettext::Storage::PO>
 
 =head1 Synopsis
 

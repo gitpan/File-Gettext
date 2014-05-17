@@ -1,14 +1,11 @@
-# @(#)$Ident: MO.pm 2014-01-01 15:26 pjf ;
-
 package File::Gettext::Storage::MO;
 
 use namespace::sweep;
-use version; our $VERSION = qv( sprintf '0.22.%d', q$Rev: 1 $ =~ /\d+/gmx );
 
 use Moo;
 use Encode                     qw( decode );
 use File::DataClass::Constants;
-use File::DataClass::Functions qw( throw );
+use File::DataClass::Functions qw( extension_map throw );
 use File::Gettext::Constants;
 use MooX::Augment -class;
 
@@ -23,6 +20,8 @@ augment '_read_file' => sub {
 augment '_write_file' => sub {
    my ($self, $wtr, $data) = @_; return $data;
 };
+
+extension_map '+File::Gettext::Storage::MO' => '.mo';
 
 # Private methods
 sub _read_filter {
@@ -145,10 +144,6 @@ __END__
 =head1 Name
 
 File::Gettext::Storage::MO - Storage class for GNU gettext machine object format
-
-=head1 Version
-
-This documents version v0.22.$Rev: 1 $ of L<File::Gettext::Storage::MO>
 
 =head1 Synopsis
 

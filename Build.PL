@@ -1,5 +1,3 @@
-# @(#)$Ident: DZ_Build.PL 2013-12-12 21:42 pjf ;
-
 use strict;
 use warnings;
 
@@ -24,11 +22,11 @@ my $prereqs  = {
     'Class::Method::ModifiersX::Augment' => '0.001',
     'Date::Format' => '2.22',
     'Encode' => '2.12',
-    'File::DataClass' => 'v0.28.0',
-    'Moo' => '1.003001',
+    'File::DataClass' => 'v0.39.0',
+    'Moo' => '1.004002',
     'Try::Tiny' => '0.18',
-    'Type::Tiny' => '0.012',
-    'Unexpected' => 'v0.20.0',
+    'Type::Tiny' => '0.030',
+    'Unexpected' => 'v0.22.0',
     'namespace::sweep' => '0.006',
     'perl' => '5.010001'
   },

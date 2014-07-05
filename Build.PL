@@ -22,12 +22,12 @@ my $prereqs  = {
     'Class::Method::ModifiersX::Augment' => '0.001',
     'Date::Format' => '2.22',
     'Encode' => '2.12',
-    'File::DataClass' => 'v0.39.0',
+    'File::DataClass' => 'v0.42.0',
     'Moo' => '1.004002',
     'Try::Tiny' => '0.18',
     'Type::Tiny' => '0.030',
     'Unexpected' => 'v0.22.0',
-    'namespace::sweep' => '0.006',
+    'namespace::autoclean' => '0.19',
     'perl' => '5.010001'
   },
 };

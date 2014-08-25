@@ -11,7 +11,7 @@ configure_requires:
   Module::Build: '0.4004'
   version: '0.88'
 dynamic_config: 1
-generated_by: 'Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.141170'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,25 +26,25 @@ no_index:
 provides:
   File::Gettext:
     file: lib/File/Gettext.pm
-    version: v0.24.1
+    version: v0.24.2
   File::Gettext::Constants:
     file: lib/File/Gettext/Constants.pm
-    version: v0.24.1
+    version: v0.24.2
   File::Gettext::ResultSource:
     file: lib/File/Gettext/ResultSource.pm
-    version: v0.24.1
+    version: v0.24.2
   File::Gettext::Schema:
     file: lib/File/Gettext/Schema.pm
-    version: v0.24.1
+    version: v0.24.2
   File::Gettext::Storage:
     file: lib/File/Gettext/Storage.pm
-    version: v0.24.1
+    version: v0.24.2
   File::Gettext::Storage::MO:
     file: lib/File/Gettext/Storage/MO.pm
-    version: v0.24.1
+    version: v0.24.2
   File::Gettext::Storage::PO:
     file: lib/File/Gettext/Storage/PO.pm
-    version: v0.24.1
+    version: v0.24.2
 requires:
   Class::Method::ModifiersX::Augment: '0.001'
   Date::Format: '2.22'
@@ -60,4 +60,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=File-Gettext
   homepage: https://metacpan.org/author/PJFL
   license: http://dev.perl.org/licenses/
-version: 0.24.1
+version: 0.24.2

@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,13 +15,13 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 ee05ee9cd6f723946aab2af1a9130c283a3392e0 Build.PL
-SHA1 3305cbfea2c73930613f6af70dce9aeb71f2147d Changes
+SHA1 a934dcd4c0c1fa8607f042b385552a8facf6ac02 Changes
 SHA1 b8415dc6fd6293b168bcc15a552f4383175e2f2f LICENSE
 SHA1 e8fd685e1d124c12c5d7f5fb322734916af4b99d MANIFEST
-SHA1 12b320c2d6e3f1bcbc870efd9c10889213cc4841 META.json
-SHA1 4b7730409cc0ff37ff397c9b39adb7310abcd8c2 META.yml
-SHA1 f7dcbba96739157c616d940e80e0435757c3281d README
-SHA1 810594c34099d189cae309b4d8b480f7f0b2def1 lib/File/Gettext.pm
+SHA1 82c48330f38432eab1128a639f6c9f25941fb953 META.json
+SHA1 85565c70f14ada35c355375c63827604326271fd META.yml
+SHA1 b78f215a09641950232dddcbf6b5dc34c440e0f9 README
+SHA1 b1fea66883b7cce4785a4b2aec09924bfe04d1ed lib/File/Gettext.pm
 SHA1 f8c6ab31234770ae34f1fde9b7884c5d3a380730 lib/File/Gettext/Constants.pm
 SHA1 9cacd6c45629729c6c00ef6ca4c60c3903db9fca lib/File/Gettext/ResultSource.pm
 SHA1 69e794a1786eee9dba15ee16ed10d31d5cb60297 lib/File/Gettext/Schema.pm
@@ -35,7 +35,7 @@ SHA1 c1c29d14c961c30f0ea1ff84dd3b6acb7f4d3e81 t/05kwalitee.t
 SHA1 8b1ef2c2000dda84911be6a6bf76d4de88a4d4dc t/06yaml.t
 SHA1 507a1c4dc03264b29ab5d05d738a072c0d43ce40 t/07podspelling.t
 SHA1 83fb578495c60c6562b5115f613955da917bd0fb t/10test_script.t
-SHA1 79fd307355f674ec4a75ae940332fb0a5e482423 t/20with-language.t
+SHA1 1d564006c66e73e100923f552bb61f148e18636d t/20with-language.t
 SHA1 1a92cb2e0902264e56ec80bffedf5a8d5bd36590 t/default.json
 SHA1 ea337409fe2dbceb2eec10bd3d279a9222ad45d8 t/existing.mo
 SHA1 e0b4528eb08ddca6f68d39495eabb3818d314d0c t/existing.po
@@ -45,11 +45,11 @@ SHA1 9c79fb75758cb3f7df027b4863ae821575efa32c t/messages.po
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQEcBAEBAgAGBQJTt8b8AAoJEK492j4Im1BpWdQIAMt8PJ0UeLgPe7b1wyVZUIjm
-Hpn0q0LLGecClEpGLepMipJyzFkjBoiDI86Wj53nKGvie0y1PIZLtgsdGdZ+FOmN
-WzKncmsla/3KdxIAESuQZnRPFRZMPdJkxPNvAYKmzL1jhS/zqUNlh6D6UDZxYHEY
-L25GsCFFsEKoRRPsP/hIyp0tBw7r/BrMMVszl7P7xwUxbP4I3DckJBn7Kl2yfRfY
-SNKCO/qTOCNnFEn1IrQGvjslma2tfygjWiUau+b/bZk2cHNaJ8BAlSBQ81cdeIXr
-k4CCKZzc6/n2NU0gM5serWdb+ofwloWXE+2+4VmLBZ3TAMsiXFBdMfHWCaRV1Vw=
-=hiiP
+iQEcBAEBAgAGBQJT+35BAAoJEK492j4Im1BpJtUH/2QGaPiUNLliUuENIEGlCfEn
+hnIcBxCUJ4thvPEe9P8lHzsrep8ilnxakGsrOVr2+8bKACFIH57wRbGlUy0NceuZ
+zdi7e4dQ/zpUGW0VjRFLUjVAG+ZRpL8o/IodiAg1hNic1ucv6yBwHca9YIwb0JCb
+viPfTnWskbSVHovD9Oo/EJTcKdGVysB4DbDwvzwpiTC92I5P3+1odNCmQlWTcuCX
+kZzCzb2OGWKgt+PSe+9ryQ977wPuI6g3qyPIY4VBq9XGoPjiZ17+spSxJlNQbnVJ
+P51PwjKEF8Y1vA3UhDarHSVME1oPDbpKvDv2H2RLffaAji7rKLBPu0zt/h1cEzw=
+=IHGZ
 -----END PGP SIGNATURE-----

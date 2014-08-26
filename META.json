@@ -41,11 +41,11 @@
             "Class::Method::ModifiersX::Augment" : "0.001",
             "Date::Format" : "2.22",
             "Encode" : "2.12",
-            "File::DataClass" : "v0.42.0",
-            "Moo" : "1.004002",
-            "Try::Tiny" : "0.18",
-            "Type::Tiny" : "0.030",
-            "Unexpected" : "v0.22.0",
+            "File::DataClass" : "v0.46.0",
+            "Moo" : "1.006000",
+            "Try::Tiny" : "0.22",
+            "Type::Tiny" : "1.000002",
+            "Unexpected" : "v0.30.0",
             "namespace::autoclean" : "0.19",
             "perl" : "5.010001"
          }
@@ -54,31 +54,31 @@
    "provides" : {
       "File::Gettext" : {
          "file" : "lib/File/Gettext.pm",
-         "version" : "v0.24.2"
+         "version" : "v0.25.1"
       },
       "File::Gettext::Constants" : {
          "file" : "lib/File/Gettext/Constants.pm",
-         "version" : "v0.24.2"
+         "version" : "v0.25.1"
       },
       "File::Gettext::ResultSource" : {
          "file" : "lib/File/Gettext/ResultSource.pm",
-         "version" : "v0.24.2"
+         "version" : "v0.25.1"
       },
       "File::Gettext::Schema" : {
          "file" : "lib/File/Gettext/Schema.pm",
-         "version" : "v0.24.2"
+         "version" : "v0.25.1"
       },
       "File::Gettext::Storage" : {
          "file" : "lib/File/Gettext/Storage.pm",
-         "version" : "v0.24.2"
+         "version" : "v0.25.1"
       },
       "File::Gettext::Storage::MO" : {
          "file" : "lib/File/Gettext/Storage/MO.pm",
-         "version" : "v0.24.2"
+         "version" : "v0.25.1"
       },
       "File::Gettext::Storage::PO" : {
          "file" : "lib/File/Gettext/Storage/PO.pm",
-         "version" : "v0.24.2"
+         "version" : "v0.25.1"
       }
    },
    "release_status" : "stable",
@@ -90,8 +90,13 @@
       "homepage" : "https://metacpan.org/author/PJFL",
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/pjfl/p5-file-gettext.git",
+         "web" : "http://github.com/pjfl/p5-file-gettext"
+      }
    },
-   "version" : "0.24.2"
+   "version" : "0.25.1"
 }
 

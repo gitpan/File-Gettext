@@ -4,7 +4,7 @@ Name
 
 Version
 
-    This documents version v0.25.$Rev: 1 $ of File::Gettext
+    This documents version v0.26.$Rev: 1 $ of File::Gettext
 
 Synopsis
 
@@ -63,7 +63,7 @@ Subroutines/Methods
 
  load
 
-    This method modifier adds the pluralization function to the return data
+    This method modifier adds the pluralisation function to the return data
 
  resultset
 

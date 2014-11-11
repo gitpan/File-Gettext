@@ -2,7 +2,7 @@ package File::Gettext;
 
 use 5.010001;
 use namespace::autoclean;
-use version; our $VERSION = qv( sprintf '0.25.%d', q$Rev: 1 $ =~ /\d+/gmx );
+use version; our $VERSION = qv( sprintf '0.26.%d', q$Rev: 1 $ =~ /\d+/gmx );
 
 use Moo;
 use English                    qw( -no_match_vars );
@@ -139,7 +139,7 @@ sub _get_path_io {
 sub _is_file_or_log_debug {
    my ($self, $path) = @_; $path->is_file and return TRUE;
 
-   $self->debug and $self->log->debug( 'Path '.$path->pathname.' not found' );
+   $self->log->debug( 'Path '.$path->pathname.' not found' );
 
    return FALSE;
 }
@@ -147,7 +147,7 @@ sub _is_file_or_log_debug {
 sub _trigger_source_name {
    my ($self, $source) = @_;
 
-   $source eq q(mo) and $self->storage_class( q(+File::Gettext::Storage::MO) );
+   $source eq 'mo' and $self->storage_class( '+File::Gettext::Storage::MO' );
 
    return;
 }
@@ -184,7 +184,7 @@ File::Gettext - Read and write GNU gettext po/mo files
 
 =head1 Version
 
-This documents version v0.25.$Rev: 1 $ of L<File::Gettext>
+This documents version v0.26.$Rev: 1 $ of L<File::Gettext>
 
 =head1 Synopsis
 
@@ -247,7 +247,7 @@ Returns the path to the po/mo file for the specified language
 
 =head2 load
 
-This method modifier adds the pluralization function to the return data
+This method modifier adds the pluralisation function to the return data
 
 =head2 resultset
 

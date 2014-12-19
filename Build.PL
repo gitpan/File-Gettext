@@ -11,6 +11,7 @@ my $perl_ver = 5.010001;
 my $name     = 'File-Gettext'; $name =~ s{ - }{::}gmx;
 my $prereqs  = {
   'build_requires' => {
+    'Hash::MoreUtils' => '0.05',
     'Module::Build' => '0.4004',
     'Test::Requires' => '0.06',
     'Text::Diff' => '1.37',
@@ -21,15 +22,14 @@ my $prereqs  = {
     'version' => '0.88'
   },
   'requires' => {
-    'Class::Method::ModifiersX::Augment' => '0.001',
     'Date::Format' => '2.22',
     'Encode' => '2.12',
-    'File::DataClass' => 'v0.46.0',
+    'File::DataClass' => 'v0.53.0',
     'Moo' => '1.006000',
     'Try::Tiny' => '0.22',
     'Type::Tiny' => '1.000002',
-    'Unexpected' => 'v0.30.0',
-    'namespace::autoclean' => '0.19',
+    'Unexpected' => 'v0.35.0',
+    'namespace::autoclean' => '0.22',
     'perl' => '5.010001'
   },
 };
